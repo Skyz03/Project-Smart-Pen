@@ -2,7 +2,7 @@ import Logo from "../images/Logo.png";
 
 function Nav() {
   return (
-    <nav className="bg-black border-gray-200 dark:bg-gray-900">
+    <nav className="bg-black border-gray-200 dark:bg-gray-900 space-mono-regular">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={Logo} className="h-auto" alt="Techscribe Logo" />
