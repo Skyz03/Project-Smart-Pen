@@ -5,11 +5,11 @@ function Hero() {
     <div className="text-white">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <div className="p-6">
-          <h1 className="">
+          <h1 className="text-4xl mb-4 leading-normal">
             Revolutionize writing with Techscribe smart pens.
           </h1>
-          <p>A New Era of Writing</p>
-          <button>See Features</button>
+          <p className="text-xl mb-4">A New Era of Writing</p>
+          <button className="btn-primary">See Features</button>
         </div>
         <div className="p-6">
           <img src={Pen} alt="smart-pen" />
